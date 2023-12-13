@@ -1,0 +1,114 @@
+:root{
+  --black:#282828;
+  --brown:#FFCD9E;
+}
+
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial;
+}
+
+.Container{
+  height: 100vh;
+  width: 100vw;
+}
+
+.Header{
+  background-color: var(--brown);
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Header-Content{
+  width: 35%;
+  display: flex;
+  flex-flow:column wrap;
+  align-items: flex-start;
+  gap: 1.8em;
+
+  margin-top: 4.5em;
+  padding-bottom: 1.5em;
+  padding-left: 4em;
+  line-height: 1.8em;
+}
+
+.Content-Form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+
+  gap: 1rem;
+}
+
+input{
+  width: 18em;
+  height: 3em;
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  padding-left: 0.8em;
+}
+
+button{
+  width: 10em;
+  height: 3.5em;
+  margin-left: 0.5em;
+
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  background-color: var(--black);
+  color: white;
+}
+
+.Content-Info{
+  display: flex;
+  align-items: center;
+  color: white;
+
+  font-size: 0.9em;
+  padding-left: 1.2em;
+}
+
+.Header-Image{
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Footer{
+  background-color: var(--black);
+  color: white;
+  height: 35vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Footer-Left{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Footer-Right{
+  text-align: right; 
+}
+
+ul{
+  list-style: none;
+  line-height: 1.8em;
+}
+
+
+
